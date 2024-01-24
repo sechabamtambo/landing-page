@@ -8,6 +8,11 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 100px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 10px;
+
 }
 ul {
     display: flex;
@@ -50,6 +55,7 @@ p {
     width: 120px;
     text-align: center;
     border-radius: 3px;
+    margin-right: 50%;
 }
 button {
     margin-top: 50px;
@@ -63,4 +69,62 @@ input[type="text"] {
     height: 30px;
     text-align: center;
     border-radius: 3px;
+}
+#email {
+    width: 50%;
+    height: 30px;
+    margin-left: 260px;
+    margin-top: 20px;
+    padding-left: 15px;
+
+}
+input[type="email"] {
+    border-radius: 3px;
+}
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    margin-left: 50%;
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: orangered;
+    border: none;
+}
+.info {
+    height: 100%;
+    width: 100%;
+}
+footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-color: bisque;
+    text-align: center;
+  }
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center
+  }
+
+  .contact-list li {
+    margin-bottom: 10px;
+}
+footer ul {
+    display: grid;
+}
+@media (max-width: 600px) {
+    header {
+      padding: 5px;
+}
+}
+.socials {
+    display: flex;
+    padding-left: 30%;
+    margin-top: 10px;
+    justify-content:space-evenly
+}
+main {
+    padding-top: 80px;
 }
